@@ -48,7 +48,7 @@ orcid_username:
 # about_title: About Me (Use this to override about section title)
   # About Section
   # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I'm Bhanu, a 3rd year MS-PhD student at UMass-Amherst. I've been working under the guidance of [Prof. Hong Yu](https://www.cics.umass.edu/faculty/directory/hong_yu) at [BioNLP lab](http://bio-nlp.org/). I am broadly interested in natural language processing, especifically question answering, chatbot systems and continual learning.
 
