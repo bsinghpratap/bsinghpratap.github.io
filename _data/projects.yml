@@ -1,14 +1,15 @@
 # Project template
-- layout: top-middle
+- layout: top
   name: Evolutionary Machine Learning (EvoML)
   link: 
   github: https://github.com/EvoML
   quote: >
-    
+    Worked with [Harsh Nisar](https://github.com/harshnisar).
   description: | # this will include new lines to allow paragraphs
-    Worked on an independent project which focussed on building a toolbox which could build bagged ensembles with the help of Genetic Algorithm. <a class='urllink' href='https://arxiv.org/abs/1610.00465' rel='nofollow'>[Paper]</a>.
+    Worked on an independent project which focussed on building a toolbox which could build bagged ensembles with the help of Genetic Algorithm. 
+# <a class='urllink' href='https://arxiv.org/abs/1610.00465' rel='nofollow'>[Paper]</a>.
 
-- layout: top-middle
+- layout: top
   name: Extracting causal relationship between a medication and its adverse drug reactions (ADRs).
   link: 
   github: 
@@ -17,7 +18,7 @@
   description: | # this will include new lines to allow paragraphs
     Working on building an effective question answering model for extracting the causal relationship between a medication and its ADRs. We are mainly focusing on anti-coagulants and bleeding events.
 
-    - Paper accepted at <mark>KDD'19, MLHC'19</mark>.
+    - Papers accepted at <mark>KDD'19, MLHC'19</mark>.
     - Organized a [Workshop](https://github.com/bsinghpratap/AMIA_2019_tutorial) on Multi-task Deep Learning for Clinical Judgement Studies at AMIA'19. 
 
 - layout: top-middle

@@ -17,8 +17,7 @@
   quote: >
     Supervised by Varun Aggarwal.
   description: | # this will include new lines to allow paragraphs
-    - Worked on building first ever automated [app-based motor skill assessment test](http://research.aspiringminds.com/category/motor-skill-test/), [Skillmap-US](https://www.aspiringminds.com/research-reports/skill-map-us-2016/) and [Skillmap-India](https://www.aspiringminds.com/research-reports/skill-map-india-2017/).
-    - Paper published at <mark>UAI'16 and EDM'16</mark>.
+    Worked on building first ever automated [app-based motor skill assessment test](http://research.aspiringminds.com/category/motor-skill-test/), [Skillmap-US](https://www.aspiringminds.com/research-reports/skill-map-us-2016/) and [Skillmap-India](https://www.aspiringminds.com/research-reports/skill-map-india-2017/). Paper published at <mark>UAI'16 and EDM'16</mark>.
 
 - layout: left
   company: National Brain Research Center
