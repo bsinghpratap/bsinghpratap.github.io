@@ -1,19 +1,5 @@
 # Experience template
 - layout: left
-  company: Aspiring Minds
-  link: aspiringminds.com
-  job_title: Research Engineer
-  dates: 2014 - 2017
-  quote: >
-    Supervised by Varun Aggarwal.
-  description: | # this will include new lines to allow paragraphs
-    I worked on multiple ML projects in the vertical of assessment.
-    - Worked on building first ever automated <mark>app-based motor skill assessment test</mark>. 
-    - <b>Skillmap-US</b>: An interactive dashboard to find what jobs are in most demand and pay the most in US. [Link](https://www.aspiringminds.com/research-reports/skill-map-us-2016/)
-    - <b>Skillmap-India</b>: An interactive dashboard to find what jobs are in most demand in India. In this skillmap, we have covered more granular information of the skills and jobs while considering the population and literacy rate of a particular state as well. [Link](https://www.aspiringminds.com/research-reports/skill-map-india-2017/)
-    
-
-- layout: left
   company: MIT-IBM Watson AI Lab
   link: https://mitibmwatsonailab.mit.edu/
   job_title: Summer Research Intern
@@ -23,6 +9,16 @@
   description: | # this will include new lines to allow paragraphs
     Worked on building Entity-Enriched Neural Models for Clinical Question Answering. 
 
+- layout: left
+  company: Aspiring Minds
+  link: aspiringminds.com
+  job_title: Research Engineer
+  dates: 2014 - 2017
+  quote: >
+    Supervised by Varun Aggarwal.
+  description: | # this will include new lines to allow paragraphs
+    - Worked on building first ever automated <mark>app-based motor skill assessment test</mark>,[Skillmap-US](https://www.aspiringminds.com/research-reports/skill-map-us-2016/) and [Skillmap-India](https://www.aspiringminds.com/research-reports/skill-map-india-2017/).
+    - Paper published at <mark>UAI'16 and EDM'16</mark>.
 
 - layout: left
   company: National Brain Research Center
