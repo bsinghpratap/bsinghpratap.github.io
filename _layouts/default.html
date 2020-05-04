@@ -16,9 +16,13 @@
 
       {%- include about.html -%}
 
-      {%- if site.data.publications.size > 0 -%}
-        {%- include publications.html -%}
-      {%- endif -%}
+      <div class="container projects-container">
+        <h3>Publications</h3>
+        {% for publication in site.data.publications %}
+          {% item=publication %}
+        {% endfor %}
+      </div>
+
 
       {%- if site.data.projects.size > 0 -%}
         {%- include projects.html -%}
