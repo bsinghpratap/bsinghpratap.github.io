@@ -1,13 +1,17 @@
 # Experience template
 - layout: left
   company: Aspiring Minds
-  link: Link to company (optional)
+  link: aspiringminds.com
   job_title: Research Engineer
   dates: 2014 - 2017
   quote: >
-   Short description of the company (optional)
+#   Short description of the company (optional)
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    I worked on multiple ML projects in the vertical of assessment.
+    - Worked on building first ever automated <mark>app-based motor skill assessment test<mark>. 
+    - <b>Skillmap-US</b>: An interactive dashboard to find what jobs are in most demand and pay the most in US. <a class='urllink' href='aspiringminds.com/skill_map_skill_view' rel='nofollow'>[Link]</a> <br>- Worked on building an <b>automated interview assessment tool</b>. The tool records the videos of candidates over different questions and predicts scores on different soft-skills. <br>- <b>Skillmap-India</b>: An interactive dashboard to find what jobs are in most demand in India. In this skillmap, we have covered more granular information of the skills and jobs while considering the population and literacy rate of a particular state as well. <a class='urllink' href='http://www.aspiringminds.com/india-skill-map' rel='nofollow'>[Link]</a><br>- EvoML: I also worked on an independent project which focussed on building a toolbox which could build bagged ensembles with the help of Genetic Algorithm. <a class='urllink' href='https://arxiv.org/abs/1610.00465' rel='nofollow'>[Paper]</a> <a class='urllink' href='https://github.com/EvoML' rel='nofollow'>[Code]</a>"
+
+
 
 - layout: left
   company: Aspiring Minds
@@ -17,6 +21,5 @@
   quote: >
    Short description of the company (optional)
   description: | # this will include new lines to allow paragraphs
-    I worked on multiple ML projects in the vertical of assessment.
-    - Worked on building first ever automated <mark>app-based motor skill assessment test<mark>. 
-    - <b>Skillmap-US</b>: An interactive dashboard to find what jobs are in most demand and pay the most in US. <a class='urllink' href='aspiringminds.com/skill_map_skill_view' rel='nofollow'>[Link]</a> <br>- Worked on building an <b>automated interview assessment tool</b>. The tool records the videos of candidates over different questions and predicts scores on different soft-skills. <br>- <b>Skillmap-India</b>: An interactive dashboard to find what jobs are in most demand in India. In this skillmap, we have covered more granular information of the skills and jobs while considering the population and literacy rate of a particular state as well. <a class='urllink' href='http://www.aspiringminds.com/india-skill-map' rel='nofollow'>[Link]</a><br>- EvoML: I also worked on an independent project which focussed on building a toolbox which could build bagged ensembles with the help of Genetic Algorithm. <a class='urllink' href='https://arxiv.org/abs/1610.00465' rel='nofollow'>[Paper]</a> <a class='urllink' href='https://github.com/EvoML' rel='nofollow'>[Code]</a>"
+    Description of role
+
