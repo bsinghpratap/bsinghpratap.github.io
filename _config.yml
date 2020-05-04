@@ -10,7 +10,7 @@ phone:
 website: 
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 twitter_username: nyctoShenanigan
