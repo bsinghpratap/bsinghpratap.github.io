@@ -1,18 +1,18 @@
 # Education Template
-- layout: top-middle
-  name: Malaviya National Institute of Technology - Jaipur
+- layout: left
+  name: MNIT-Jaipur
   dates: 2010-2014
   qualification: B.Tech
   quote: >
     Major: Electrical Engineering
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    
 
-- layout: top-middle
-  name: University of Massachusetts - Amherst.
+- layout: left
+  name: UMass-Amherst
   dates: 2017-present
   qualification: MS-PhD
   quote: >
     Major: Computer Science
   description: | # this will include new lines to allow paragraphs
-    Currently
+    
