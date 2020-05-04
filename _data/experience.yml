@@ -5,7 +5,7 @@
   job_title: Research Engineer
   dates: 2014 - 2017
   quote: >
-#   Short description of the company (optional)
+    Supervised by Varun Aggarwal.
   description: | # this will include new lines to allow paragraphs
     I worked on multiple ML projects in the vertical of assessment.
     - Worked on building first ever automated <mark>app-based motor skill assessment test</mark>. 
@@ -13,15 +13,23 @@
     - <b>Skillmap-India</b>: An interactive dashboard to find what jobs are in most demand in India. In this skillmap, we have covered more granular information of the skills and jobs while considering the population and literacy rate of a particular state as well. [Link](https://www.aspiringminds.com/research-reports/skill-map-india-2017/)
     
 
+- layout: left
+  company: MIT-IBM Watson AI Lab
+  link: https://mitibmwatsonailab.mit.edu/
+  job_title: Summer Research Intern
+  dates: June 2019 - August 2019
+  quote: >
+   Supervised by Dr. Preethi Raghavan
+  description: | # this will include new lines to allow paragraphs
+    Worked on building Entity-Enriched Neural Models for Clinical Question Answering. 
 
 
 - layout: left
-  company: Aspiring Minds
-  link: Link to company (optional)
-  job_title: Research Engineer
-  dates: 2014 - 2017
+  company: National Brain Research Center
+  link: http://www.nbrc.ac.in/
+  job_title: Summer Research Intern
+  dates: May 2013 - July 2013
   quote: >
-   Short description of the company (optional)
+   Supervised by Dr. Neeraj Jain.
   description: | # this will include new lines to allow paragraphs
-    Description of role
-
+    Worked on building a hand tracking device which could be mounted on the subject's hand while recording it's neural signals during a task
