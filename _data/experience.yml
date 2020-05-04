@@ -1,9 +1,9 @@
 # Experience template
 - layout: left
-  company: Company name
+  company: Aspiring Minds
   link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  job_title: Research Engineer
+  dates: 2014 - 2017
   quote: >
    Short description of the company (optional)
   description: | # this will include new lines to allow paragraphs

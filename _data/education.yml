@@ -1,9 +1,18 @@
 # Education Template
 - layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
+  name: Malaviya National Institute of Technology - Jaipur
+  dates: 2010-2014
+  qualification: B.Tech
   quote: >
-    Short institution or course description (optional)
+    Major: Electrical Engineering
+  description: | # this will include new lines to allow paragraphs
+    Description of qualification
+
+- layout: left
+  name: University of Massachusetts - Amherst.
+  dates: 2017-present
+  qualification: MS-PhD
+  quote: >
+    Major: Computer Science
   description: | # this will include new lines to allow paragraphs
     Description of qualification
