@@ -1,15 +1,15 @@
 # Project template
-- layout: top
+- layout: top-middle
   name: Evolutionary Machine Learning (EvoML)
   link: 
   github: https://github.com/EvoML
   quote: >
-    Worked with [Harsh Nisar](https://github.com/harshnisar).
+    Worked with Harsh Nisar.
   description: | # this will include new lines to allow paragraphs
     Worked on an independent project which focussed on building a toolbox which could build bagged ensembles with the help of Genetic Algorithm. 
 # <a class='urllink' href='https://arxiv.org/abs/1610.00465' rel='nofollow'>[Paper]</a>.
 
-- layout: top
+- layout: top-middle
   name: Extracting causal relationship between a medication and its adverse drug reactions (ADRs).
   link: 
   github: 
