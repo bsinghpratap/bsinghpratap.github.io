@@ -19,7 +19,7 @@ stackoverflow_username:
 dribbble_username:
 facebook_username:
 flickr_username:
-instagram_username:
+instagram_username: arush_pratap
 linkedin_username: bhanu-pr
 xing_username:
 pinterest_username:
@@ -52,6 +52,8 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I'm Bhanu, a 3rd year MS-PhD student at UMass-Amherst. I've been working under the guidance of [Prof. Hong Yu](https://www.cics.umass.edu/faculty/directory/hong_yu) at [BioNLP lab](http://bio-nlp.org/). I am broadly interested in natural language processing, especifically question answering, chatbot systems and continual learning.
 
+  Before joining UMass, in 2017, I worked as a Research Engineer at Aspiring Minds for 3 years under the guidance of [Varun Aggarwal](https://www.aspiringminds.com/company/leadership/varun-aggarwal/). Worked at a bunch of amazing projects and assisted in the establishment and running of [ML-India](http://ml-india.org/) and its [Gurgaon chapter](https://github.com/ML-India-Gurgaon-Chapter). 
+
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
   # You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
@@ -72,9 +74,11 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  In my free time I like to go for rock climbing, either in the gym or outside. Some of my favorite places for climbing: Farley, Lincoln Woods, Lynn Woods and Acadia. I like to read, whenever I can, and am currently reading Homo Sapiens. Some of my favorite books: One Hundred Years of Solitude, G.G.Marquez and Walden, H.D.Thoreau, The Fountainhead, Ayn Rand. Godan, Munshi Premchand. Guns, Germs and Steel by Jared Diamond.
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+# This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+# Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
