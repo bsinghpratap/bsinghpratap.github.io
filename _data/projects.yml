@@ -14,7 +14,7 @@
 - layout: top-middle
   name: Question Answering Model Generalization using Logical Forms
   link:
-  github: https://github.com/emrqa
+  github: emrqa
   quote: >
     Supervised by Dr. Preethi Raghavan.
   description: | # this will include new lines to allow paragraphs
@@ -26,7 +26,7 @@
 - layout: top-middle
   name: Multi-resolution Fusion Sequence Models
   link:
-  github: https://github.com/Information-Fusion-Lab-Umass/MultiFIT
+  github: Information-Fusion-Lab-Umass/MultiFIT
   quote: >
     Supervised by Prof. Madalina Fiterau.
   description: | # this will include new lines to allow paragraphs
@@ -35,7 +35,7 @@
 - layout: top-middle
   name: Evolutionary Machine Learning (EvoML)
   link: 
-  github: https://github.com/EvoML
+  github: EvoML
   quote: >
     Worked with Harsh Nisar.
   description: | # this will include new lines to allow paragraphs
