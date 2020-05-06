@@ -20,7 +20,7 @@
   description: | # this will include new lines to allow paragraphs
     Integrating semantic parse of questions in unstructured question answering.
 
-    - Established the leaderboard.
+    - Established the leaderboard for emrQA.
     - Paper accepted at <mark>BioNLP, ACL'20</mark>.
 
 - layout: top-middle
@@ -30,7 +30,10 @@
   quote: >
     Supervised by Prof. Madalina Fiterau.
   description: | # this will include new lines to allow paragraphs
-    Developing variants of sequence models which can handle missing and multi-resolution temporal data.
+    Developing variants of sequence models which can handle missing, multi-resolution and irregularly sampled temporal data.
+
+    - The architecture creates informative representation rather than imputing values for each feature at different time-steps.
+    - It models the relationship between different signals in the form of support signals for building informative representations.
 
 - layout: top-middle
   name: Evolutionary Machine Learning (EvoML)
@@ -39,5 +42,7 @@
   quote: >
     Worked with Harsh Nisar.
   description: | # this will include new lines to allow paragraphs
-    Worked on an independent project which focussed on building a toolbox which could build bagged ensembles with the help of Genetic Algorithm. 
+    Worked on an independent project which focussed on building a toolbox which could build bagged ensembles with the help of Genetic Algorithm.
+
+    - We tried multiple fitness functions to assess ensembles and empirically compare our performance against randomized sampling of training data and feature subspaces.
 # <a class='urllink' href='https://arxiv.org/abs/1610.00465' rel='nofollow'>[Paper]</a>.
