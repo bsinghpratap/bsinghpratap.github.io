@@ -8,7 +8,7 @@
   description: | # this will include new lines to allow paragraphs
     Working on building an effective question answering model for extracting the causal relationship between a medication and its ADRs. We are mainly focusing on anti-coagulants and bleeding events.
 
-    - Papers accepted at <mark>KDD'19, MLHC'19</mark>.
+    - Papers accepted at <mark>KDD'19 and MLHC'19</mark>.
     - Organized a [Workshop](https://github.com/bsinghpratap/AMIA_2019_tutorial) on Multi-task Deep Learning for Clinical Judgement Studies at AMIA'19.
 
 - layout: top-middle
