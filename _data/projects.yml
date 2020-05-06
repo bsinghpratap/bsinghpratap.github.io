@@ -45,4 +45,5 @@
     Worked on an independent project which focussed on building a toolbox which could build bagged ensembles with the help of Genetic Algorithm.
 
     - We tried multiple fitness functions to assess ensembles and empirically compare our performance against randomized sampling of training data and feature subspaces.
+    - Paper accepted at <mark>DEML, ICML'16</mark>.
 # <a class='urllink' href='https://arxiv.org/abs/1610.00465' rel='nofollow'>[Paper]</a>.
