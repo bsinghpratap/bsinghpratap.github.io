@@ -29,7 +29,7 @@ orcid_username:
 # Additional icon links
 additional_links:
 - title: Sourcerer.io Link
-  icon: images/sourcerer.png
+  icon: /images/sourcerer.png
   url: https://sourcerer.io/bsinghpratap
 
 
