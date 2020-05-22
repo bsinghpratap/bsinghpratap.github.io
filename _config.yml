@@ -26,10 +26,9 @@ pinterest_username:
 youtube_username:
 googleplus_username:
 orcid_username:
-
 # Additional icon links
-# additional_links:
-- title: sourcerer.io
+additional_links:
+- title: Sourcerer.io Link
   icon: images/sourcerer.png
   url: https://sourcerer.io/bsinghpratap
 
