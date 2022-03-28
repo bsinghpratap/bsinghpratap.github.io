@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Bhanu Pratap Singh</title>
+  <meta name="description" content="Bhanu's homepage">
+  <meta name="author" content="Bhanu Pratap Singh">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tabify.css">
+  <link rel="stylesheet" href="fontello/css/fontello.css">
+  <link rel="stylesheet" href="fontello-e78c6899/css/fontello.css">
+
+
+ <!-- FONT  -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="header">
+            <div class="header-right">
+                <a class="active" href="index.html" class="active">Home</a>
+                <a class="none" target="_blank" href="https://scholar.google.com/citations?hl=en&user=424dnyQAAAAJ&view_op=list_works&sortby=pubdate" >Publications</a>
+
+            </div>
+            <h1>Bhanu Pratap Singh</h1>
+
+        </div>
+
+        <div class="row" style="margin-top: 2rem;">
+            <div class="four columns sidebar" >
+                <img src="images/bhanu.jpg" alt="Bhanu's photo" width="190" height="">
+                <ul class="contact">
+                    <li>MS-PhD Student</li>
+                    <li><a class="none" href="https://www.cics.umass.edu/">College of Informatics and Computer Science</a></li>
+                    <li><a class="none" href="https://www.umass.edu/">University of Massachusetts - Amherst</a></li>
+                    <li>
+                        <a class="none" href="mailto: brawat@umass.edu"><i class="icon-mail-alt"></i></a>&nbsp;
+                        <a class="none" href="pdfs/cv.pdf"><i class="icon-doc-text-inv"></i>Resume</a>&nbsp;
+                        <a class="none" href="https://twitter.com/bsinghpratap_"><i class="icon-twitter-bird"></i></a>
+                        <a class="none" href="https://github.com/bsinghpratap"><i class="icon-github-circled" style="font-size: 1.20em;"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="eight columns">
+                    <div id="about">
+                        <p>
+                            I am a MS-PhD student in the <a href="https://www.cics.umass.edu/">College of Informatics and Computer Science</a> at <a href="https://www.umass.edu/">University of Massachusetts - Amherst</a>. I work at the <a href="http://bio-nlp.org/">BioNLP lab</a> under the guidance of <a href="https://www.cics.umass.edu/faculty/directory/hong_yu">Prof. Hong Yu</a>. I've also had the opportunity to work with some awesome people from <a href="https://mitibmwatsonailab.mit.edu/">MIT-IBM Watson Lab</a> and <a href="https://www.amazon.science/">Amazon Alexa-AI team</a>.
+                            Before joining UMass in 2017, I worked as a Research Engineer at <a href="https://www2.shl.com/en/india/">Aspiring Minds (now SHL)</a>. I completed my undergraduate from <a href="http://mnit.ac.in/">MNIT, Jaipur</a>.
+                        </p>
+                        <p>
+                            My research aims at developing tools and methods to automate and alleviate the current state of clinical decision support systems. I have worked on projects related to clinical question answering, document-level prediction, domain adaptation and clinical privacy. In recent years, I have worked on multiple projects in collaboration with <a href="https://www.va.gov/bedford-health-care/">Department of Veteran Affairs - Bedford</a> to understand the associations between Veteran's medical and socio-economic conditions and their mental and physical health.
+                        </p>
+<!--                        <p><b>-->
+<!--                        I am actively seeking motivated and talented graduate students and postdoctoral researchers. If you wish to work with me, email me with a statement explaining your interest in my research.</b>-->
+<!--                        </p>-->
+                </div>
+            </div>
+
+             <div class="twelve columns">
+                        <h5>Select Research</h5>
+                        <table class="projects">
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center;">
+                                        <img src="images/scan_image.jpg" alt="ScAN logo" width="80" height=""><br>
+                                        <!--<b> <font style="font-variant:small-caps; font-size: large; font-family:">Discover[i]</font></b>-->
+                                    </td>
+                                    <td>
+                                        <b>[1.] Identifying Suicide Attempt and Ideation Events from EHRs (ongoing).</b>
+                                        Suicide is an important public health concern and one of the leading causes of death worldwide. Suicidal behaviors, including suicide attempts (SA) and suicide ideations (SI), are leading risk factors for death by suicide. Information related to patients' previous and current SA and SI are frequently documented in the electronic health record (EHR) notes. Accurate detection of such documentation may help improve surveillance and predictions of patients' suicidal behaviors and alert medical professionals for suicide prevention efforts. In this work, we first built
+<b>S</b>ui<b>c</b>ide <b>A</b>ttempt and Ideatio<b>N</b> Events (ScAN) dataset, a subset of the publicly available MIMIC III dataset spanning over 12k+ EHR notes with 19k+ annotated SA and SI events information. The annotations also contain attributes such as method of suicide attempt. We also built a strong baseline model ScANER, a multi-task RoBERTa-based model with a retrieval module to extract all the relevant suicidal behavioral evidences from EHR notes of an hospital-stay and, and a prediction module to identify the type of suicidal behavior (SA and SI) concluded during the patient's stay at the hospital.
+
+                                        Coming soon: <a href="">Paper</a>, <a href="">Leaderboard</a>.
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                <td style="text-align: center;">
+                                    <img src="images/tbi_ptsd.jpg" alt="tbi_ptsd_logo" width="60" height=""><br>
+                                </td>
+                                <td>
+                                <b>[2.] Associations Between TBI, PTSD, and Intentional Self-Harm among US Veterans (ongoing).</b> Veterans with a history of traumatic brain injury (TBI) and/or posttraumatic stress disorder (PTSD) may be at increased risk of suicide attempts and other forms of intentional self-harm as compared to Veterans without TBI or PTSD. Using administrative data from the United States (US) Veterans Health Administration (VHA), we studied associations between TBI and PTSD diagnoses, and hospitalizations due to intentional self-harm, among US Veterans who used VHA healthcare.
+
+                                    Coming soon: <a href="">Paper</a>. Work accepted at Annual Research Meeting (ARM), Academy Health (2022).
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <td style="text-align: center;">
+                                    <img src="images/sdoh.jpg" alt="ease_logo" width="100" height=""><br>
+                                </td>
+                                <td>
+                                    <b>[3.] Extracting SDOH concepts from UMLS.</b>
+                                    Social Determinants of Health (SDOH) are the conditions in which people are born, live, work, and age. Unified Medical Language System (UMLS) incorporates SDOH concepts; but few have evaluated its coverage and quality. With 15,649 expert-annotated SDOH mentions from 3176 randomly selected electronic health record (EHR) notes, we found that 100% SDOH mentions can be mapped to at least one UMLS concept, indicating a good coverage of SDOH. However, we discovered a few challenges for the UMLS's representation of SDOH. Next, we developed a multi-step framework to identify SDOH concepts from UMLS, and a clinical BERT-based classification algorithm to assign each identified SDOH concept to one of the six general categories. Our multi-step framework extracted a total of 198,677 SDOH concepts from the UMLS and the SDOH category classification system attained an accuracy of 91%. We also built EASE: an open-source tool to Extract SDOH from EHRs.
+
+                                    Coming soon: <a href="">Papers</a>. Work accepted at AMIA Clinical Informatics 2022 (poster and system-demo) and Annual Research Meeting (ARM), Academy Health (2022).
+                                </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="text-align: center;">
+                                        <img src="images/naranjo.jpg" alt="NaranjoQA logo" width="90" height=""><br>
+                                    </td>
+                                    <td>
+                                        <b>[4.] Inferring Causality between Adverse Drug Reactions (ADRs) and a medication via Naranjo Scale.</b>
+
+                                        In this work we focused towards identifying causality between a medication and its adverse drug reactions (ADRs) using a clinically standardized assessment technique called Naranjo scale. Naranjo scale provides a list of ten questions that are answered against patients' notes to assess drug-ADR causality assessment. We developed a multi-task learning framework that would take a question from Naranjo scale along with a patient's note to identify relevant evidence sentences and paragraphs in the note while also predicting the answer. Such automated causality assessments are essential for pharmacovigilance and drug safety surveillance and would reduce the necessary manpower required for manual chart reviews.
+
+                                        See our <a href="https://dl.acm.org/doi/10.1145/3292500.3330770">KDD 2019</a>, <a href="http://proceedings.mlr.press/v106/rawat19a/rawat19a.pdf">MLHC 2019</a> and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8075501/">AMIA 2020</a> papers
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+
+                                    <td style="text-align: center;">
+                                        <img src="images/ernie.jpg" alt="clinicalQA logo" width="90" height=""><br>
+                                    </td>
+                                    <td>
+                                        <b>[5.] Entity-Enriched Neural Models for Clinical Question Answering.</b>
+
+                                        We explore state-of-the-art neural models for question answering on electronic medical records and improve their ability to generalize better on previously unseen (paraphrased) questions at test time. We enable this by learn- ing to predict logical forms as an auxiliary task along with the main task of answer span detection. The predicted logical forms also serve as a rationale for the answer. Further, we also incorporate medical entity information in these models via the ERNIE (Zhang et al., 2019a) architecture. We train our models on the large-scale emrQA dataset and observe that our multi-task entity-enriched models generalize to paraphrased questions ∼5% better than the baseline BERT model.
+
+                                        See our <a href="https://aclanthology.org/2020.bionlp-1.12.pdf">BioNLP, ACL 2020</a> paper. This work was done with <a href="https://mitibmwatsonailab.mit.edu/people/preethi-raghavan/">Dr. Preethi Raghavan</a>.
+                                        </td>
+                                </tr>
+                            <tr>
+
+                                    <td style="text-align: center;">
+
+                                    </td>
+                                    <td>
+                                        All the remaining projects are listed here: <a href="Projects.html">Projects</a>
+                                        </td>
+                                </tr>
+                </tbody>
+
+        </table>
+
+
+
+                    <p ></p>
+
+                    <h5>News</h5>
+                        <table class="news">
+                            <tbody>
+                                <tr>
+                                    <td>June'22</td>
+                                    <td>
+                                        Would be attending Annual Research Meeting, Academy Health 2022, to present our work on Projects [2] and [3] above.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>May'22</td>
+                                    <td>
+                                        Would be attending AMIA Clinical Informatics 2022, to present our work on Project [3] above.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+
+<!--                    <h5>Select Talks</h5>-->
+<!--                        <table class="publications">-->
+<!--                            <tbody>-->
+<!--                                <tr><td>Program Synthesis: A Dream Realized? <br>-->
+<!--                                    StrangeLoop 2021. <a href="https://www.youtube.com/watch?v=raL5jZDBsZc&t=2273s"><i class="icon-play-circled"></i></a></td>-->
+<!--                                </tr>-->
+
+<!--                                <tr><td>MANTIS: Semantics-driven Inductive Program Synthesis.<br>-->
+<!--                                    Code Mesh 2020. <a href="https://www.youtube.com/watch?v=-xeGX4CM1qI&list=PLvL2NEhYV4Zu0Jrp0l90aU83_AfuFcN_q&index=25"><i class="icon-play-circled"></i></a></td>-->
+<!--                                </tr>-->
+
+<!--                                <tr><td>Augmented Example-based Synthesis using Relational Perturbation Properties. <br>-->
+<!--                                    POPL 2020. <a href="https://www.youtube.com/watch?v=VTrB1byciSs"><i class="icon-play-circled"></i></a></td>-->
+<!--                                </tr>-->
+
+<!--                                <tr><td>Discover[i]: Component-based Parameterized Reasoning for Distributed Applications.  <br>-->
+<!--                             MSR, Redmond, 2018. <a href="https://www.microsoft.com/en-us/research/video/discoveri-component-based-parameterized-reasoning-for-distributed-applications/"><i class="icon-play-circled"></i></a></td>-->
+<!--                                </tr>-->
+
+<!--                                <tr><td>Computer-aided Concurrent Programming.  <br>-->
+<!--                             Papers We Love Conference, 2018. <a href="https://youtu.be/_gvTS_XdcPA"><i class="icon-play-circled"></i></a></td>-->
+<!--                                </tr>-->
+<!--                            </tbody>-->
+<!--                        </table>-->
+
+<!--                           <h5>Research Group</a></h5>-->
+<!--                    <table class="service">-->
+<!--                        <tbody>-->
+<!--                            <tr>-->
+<!--                                <td style="text-align: left">Andrew Chang (PhD Student)<br></td>-->
+<!--                            </tr>-->
+<!--                            <tr>-->
+<!--                                <td style="text-align: left"><a href="https://nourj9.github.io/">Nouraldin Jaber</a> (PhD Student,  co-supervised with Milind Kulkarni)</td>-->
+<!--                            </tr>-->
+<!--                            &lt;!&ndash;<tr>-->
+<!--                                <td style="text-align: left"><a href="http://xuankanglin.com/About-Me/">Xuankang Lin</a><br>(Co-supervisor: Suresh Jagannathan)</td>-->
+<!--                            </tr>&ndash;&gt;-->
+<!--                            <tr>-->
+<!--                                <td style="text-align: left"><a href="https://azcwagner.github.io">Christopher Wagner</a> (PhD Student)</td>-->
+<!--                            </tr>-->
+<!--                            <tr>-->
+<!--                                <td style="text-align: left"><a href="https://victoryyw.github.io/">Yongwei Yuan</a> (PhD Student)</td>-->
+<!--                            </tr>-->
+<!--                            <tr>-->
+<!--                                <td style="text-align: left"><a href="https://legalian.github.io/">Parker Lawrence</a> (Undergraduate Student)</td>-->
+<!--                            </tr>-->
+<!--                            <tr class="blank_row"><td></td></tr>-->
+<!--                            <tr><td style="text-align: left"><b>Alumni</b></td></tr>-->
+<!--                            <tr><td style="text-align: left">David Perry (M.S, 2018, co-supervised with Xiangyu Zhang)</td></tr>-->
+<!--                        </tbody>-->
+<!--                    </table>-->
+
+<!--                <h5> Teaching </h5>-->
+<!--                    <table class="news">-->
+<!--                        <tbody>-->
+<!--                            <tr>-->
+<!--                                <td style="text-align: left"><b>CS560: Reasoning About Programs.</b>-->
+<!--                                    <a href="cs560rap/f21/leaderboard.html">Fall 2021</a>, Spring 2021, Spring 2020, Spring 2019, Fall 2017, Fall 2016</td>-->
+<!--                            </tr>-->
+<!--                            <tr>-->
+<!--                                <td style="text-align: left"><b>CS307: Software Engineering.</b> Spring 2022, Fall 2020, Fall 2019, Spr 2018</td>-->
+<!--                            </tr>-->
+<!--                            <tr>-->
+<!--                                <td style="text-align: left"><b>CS456: Programming Languages.</b> Spring 2017</td>-->
+<!--                            </tr>-->
+
+
+<!--                        </tbody>-->
+<!--                     </table>-->
+
+                    <h5 style="margin-bottom:-80px"> Professional Activities</h5>
+                        <table class="service">
+                            <tbody>
+
+<!--                                <tr>-->
+<!--                                    <th style="text-align: left"; colspan="2"><b>Steering Committee</b></th>-->
+<!--                                    <th></th>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td style="text-align: left">2020-now</td>-->
+<!--                                    <td style="text-align: left">-->
+<!--                                    VMW<i class="icon-at"></i>CAV-->
+<!--                                    </td>-->
+<!--                                </tr>-->
+
+<!--                                <tr>-->
+<!--                                    <td style="text-align: left">2016-now</td>-->
+<!--                                    <td style="text-align: left">-->
+<!--                                    DARS-->
+<!--                                    </td>-->
+<!--                                </tr>-->
+
+
+<!--                                <tr>-->
+<!--                                    <th style="text-align: left"; colspan="2"><b>Organization</b></th>-->
+<!--                                    <th></th>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td style="text-align: left">2021</td>-->
+<!--                                    <td style="text-align: left">-->
+<!--                                        General Chair MAPS<i class="icon-at"></i>PLDI, Organization Committee VMW<i class="icon-at"></i>CAV</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td style="text-align: left">2020</td>-->
+<!--                                    <td style="text-align: left">Chair VMW<i class="icon-at"></i>CAV</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td style="text-align: left">2019</td>-->
+<!--                                    <td style="text-align: left">Co-Chair PLDI AEC </td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td style="text-align: left">2017</td>-->
+<!--                                    <td style="text-align: left">Co-Chair DARS<i class="icon-at"></i>CAV</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td style="text-align: left">2016</td>-->
+<!--                                    <td style="text-align: left">Co-Chair DARS<i class="icon-at"></i>CPSWeek, Publicity Chair CAV</td>-->
+<!--                                </tr>-->
+
+<!--                                <tr>-->
+                                <th style="text-align: left"; colspan="2">Program Committee</th><th></th>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left">
+                                        2022
+                                    </td>
+                                    <td style="text-align: left">
+                                        AMIA, ICLR, ClinicalNLP (NAACL)
+                                    </td>
+                                    <br>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left">
+                                        2021
+                                    </td>
+                                    <td style="text-align: left">
+                                        ACL, EMNLP
+                                    </td>
+                                    <br>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left">
+                                        2020
+                                    </td>
+                                    <td style="text-align: left">
+                                        AMIA, ACL
+                                    </td>
+                                    <br>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left">
+                                        2019
+                                    </td>
+                                    <td style="text-align: left">
+                                        MLHC, AMIA, ML4H (NeurIPS)
+                                    </td> <br>
+                                </tr>
+<!--                                <tr>-->
+<!--                                    <td style="text-align: left">2018</td>-->
+<!--                                    <td style="text-align: left">OOPSLA, CAV, VMCAI, SYNT, POPL SRC</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td style="text-align: left">2017</td>-->
+<!--                                    <td style="text-align: left">CAV, FMCAD, SYNT</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td style="text-align: left">2016</td>-->
+<!--                                    <td style="text-align: left">VMCAI, SYNT</td>-->
+<!--                                </tr>-->
+                            </tbody>
+                        </table>
+
+
+
+
+
+                </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+         Adapted from
+        the design by <a href="https://www.cs.purdue.edu/homes/roopsha/index.html">Roopsha Samanta</a>, <a href="https://homes.cs.washington.edu/~emina/index.html">Emina Torlak</a> and <a href="https://rishabhmit.bitbucket.io/">Rishabh Singh</a>. Last updated Feb'22.
+    </div>
+
+
+
+
+    <script src="scripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="scripts/jquery.tabify.source.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+                // <![CDATA[
+
+                $(document).ready(function () {
+                    $('#nav').tabify();
+                });
+
+                // ]]>
+    </script>
+<!--    <script>-->
+<!--      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){-->
+<!--      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),-->
+<!--      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)-->
+<!--      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');-->
+
+<!--      ga('create', 'UA-65895730-2', 'auto');-->
+<!--      ga('send', 'pageview');-->
+
+<!--    </script>-->
+    <script type="text/javascript">
+        function stc(e,linkIndex){if(document.images){var linkText;if(navigator.appName.toLowerCase()=="microsoft internet explorer"){linkText=e.innerText}else{linkText=e.textContent}if(linkText==""){if(e.firstChild){var firstChild=e.firstChild.nodeName.toUpperCase();if(firstChild=="IMG"){linkText="Image: "+getName(e.firstChild.getAttribute('src'))}}else{var nodeName=e.nodeName.toUpperCase();if(nodeName=="AREA"){linkText="ImageMap: "+e.href}}}if(linkText==""){linkText=e.href}(new Image()).src="/a/i/stg.gif?f="+escape(document.location.href)+"&t="+escape(e.href)+"&i="+linkIndex+"&n="+escape(trimString(linkText))}}function getName(s){if(s.lastIndexOf('/')>=0){return(s.substring(s.lastIndexOf('/')+1,s.length))}else{return(s)}}function trimString(s){return(s.replace(/^\s*/,"").replace(/\s*$/,""))}
+    </script>
+
+
+            <!-- End Document
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    </body>
+</html>
