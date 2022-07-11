@@ -1,1 +1,1 @@
-# pubmedqa.github.io
+# [ScAN leaderboard](https://bsinghpratap.github.io/scan/leaderboard)
